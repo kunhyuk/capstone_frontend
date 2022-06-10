@@ -6,8 +6,33 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+header {
+  
+  padding: 1rem;
+}
+header a {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 40px;
+}
+main {
+  padding: 1rem;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.product {
+  border: 1px #404040 solid;
+  margin: 1rem;
+}
+.product img {
+  width: 100%;
+  max-width: 1000px;
+}
+.product-info {
+  padding: 1rem;
 }
